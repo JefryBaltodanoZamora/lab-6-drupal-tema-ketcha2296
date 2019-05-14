@@ -1,0 +1,64 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'drupal-bootstrap';
+
+
+.logo {
+    margin-left: 5em;
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.equipo-de-trabajo{
+    .field--name-field-foto{
+        float: left;
+        .field--label{
+            display: none;
+        }
+        .field--item{
+            img{
+                width: 25em;
+                height: 15em;
+                border-radius: 2em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                margin-right: 1em;
+            }
+        }
+    }
+    .field--name-field-nombre {
+        margin-bottom: 1em;
+    }
+    .field--name-field-puesto {
+        margin-bottom: 1em;
+    }
+    .field--name-field-biografia{
+        .field--label{
+            display: none;
+        }
+    }
+}
+
+.una-title {
+    text-align: center;
+    width: 100%;
+}
+
+.field--name-body {
+    margin-top: 2em;
+    p {
+        img {
+            width: 25em;
+            height: 15em;
+            border-radius: 2em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-right: 1em;
+        }
+    }
+}
